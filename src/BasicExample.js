@@ -5,9 +5,9 @@ const BasicExample = () => (
   <Router>
     <div>
       <ul>
-        <li>
+        {/* <li>
           <Link to="/">Home</Link>
-        </li>
+        </li> */}
         <li>
           <Link to="/about">About</Link>
         </li>
@@ -18,18 +18,18 @@ const BasicExample = () => (
 
       <hr />
 
-      <Route exact path="/" component={Home} />
+      {/* <Route exact path="/" component={Home} /> */}
       <Route path="/about" component={About} />
       <Route path="/topics" component={Topics} />
     </div>
   </Router>
 );
 
-const Home = () => (
-  <div>
-    <h2>Home</h2>
-  </div>
-);
+// const Home = () => (
+//   <div>
+//     <h2>Home</h2>
+//   </div>
+// );
 
 const About = () => (
   <div>
